@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: linear-gradient(rgba(0, 0, 102, 0.668), rgba(0, 0, 102, 0.668)), url(./assets/hero\ image.png);
+    background-size: cover;
+    height: 100vh;
+}
+
+.container {
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+.navbar {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    font-family: 'Red Rose', cursive;
+    padding: 40px;
+    margin-bottom: 40px;
+}
+
+.list {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    flex-grow: 1;
+    gap: 36px;
+    font-size: 20px;
+    font-weight: 500;
+    color: yellow;
+
+
+}
+
+.list-item:first-child {
+    margin-left: auto;
+}
+
+.list-item:last-child {
+    background-color: red;
+    padding: 8px 12px;
+    margin-left: auto;
+    color: white;
+}
+
+.hero {
+    width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.hero-heading {
+    font-size: 84px;
+    font-family: 'Dela Gothic One', cursive;
+    font-weight: 800;
+    text-align: center;
+    color: yellow;
+    margin-bottom: 62px;
+}
+
+.button-large {
+    background-color: red;
+    padding: 20px 60px;
+    font-size: 24px;
+    font-family: 'Red Rose', cursive;
+    color: white;
+}
+
+.hero img {
+    position: absolute;
+    bottom: 0;
+    right: -150px;
+}
